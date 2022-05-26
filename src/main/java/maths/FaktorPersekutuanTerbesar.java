@@ -40,7 +40,7 @@ public class FaktorPersekutuanTerbesar {
     public static int gcd(int[] angka) {
         int hasil = angka[0];
         for (int i = 1; i < angka.length; i++) {
-            hasil = gcd(result, angka[i]);
+            hasil = gcd(hasil, angka[i]);
         }
 
         return hasil;
